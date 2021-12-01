@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/flawlessadmin/static/js/main.f3004195.chunk.js",
-    "main.js.map": "/flawlessadmin/static/js/main.f3004195.chunk.js.map",
-    "runtime-main.js": "/flawlessadmin/static/js/runtime-main.292848c6.js",
-    "runtime-main.js.map": "/flawlessadmin/static/js/runtime-main.292848c6.js.map",
-    "static/js/2.008c1f0c.chunk.js": "/flawlessadmin/static/js/2.008c1f0c.chunk.js",
-    "static/js/2.008c1f0c.chunk.js.map": "/flawlessadmin/static/js/2.008c1f0c.chunk.js.map",
-    "index.html": "/flawlessadmin/index.html",
-    "static/js/2.008c1f0c.chunk.js.LICENSE.txt": "/flawlessadmin/static/js/2.008c1f0c.chunk.js.LICENSE.txt"
+    "main.js": "/flawless-admin/static/js/main.f3004195.chunk.js",
+    "main.js.map": "/flawless-admin/static/js/main.f3004195.chunk.js.map",
+    "runtime-main.js": "/flawless-admin/static/js/runtime-main.44c45c47.js",
+    "runtime-main.js.map": "/flawless-admin/static/js/runtime-main.44c45c47.js.map",
+    "static/js/2.008c1f0c.chunk.js": "/flawless-admin/static/js/2.008c1f0c.chunk.js",
+    "static/js/2.008c1f0c.chunk.js.map": "/flawless-admin/static/js/2.008c1f0c.chunk.js.map",
+    "index.html": "/flawless-admin/index.html",
+    "static/js/2.008c1f0c.chunk.js.LICENSE.txt": "/flawless-admin/static/js/2.008c1f0c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.292848c6.js",
+    "static/js/runtime-main.44c45c47.js",
     "static/js/2.008c1f0c.chunk.js",
     "static/js/main.f3004195.chunk.js"
   ]
