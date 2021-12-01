@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/flawlessadmin/static/js/main.f3004195.chunk.js",
+    "main.js.map": "/flawlessadmin/static/js/main.f3004195.chunk.js.map",
+    "runtime-main.js": "/flawlessadmin/static/js/runtime-main.292848c6.js",
+    "runtime-main.js.map": "/flawlessadmin/static/js/runtime-main.292848c6.js.map",
+    "static/js/2.008c1f0c.chunk.js": "/flawlessadmin/static/js/2.008c1f0c.chunk.js",
+    "static/js/2.008c1f0c.chunk.js.map": "/flawlessadmin/static/js/2.008c1f0c.chunk.js.map",
+    "index.html": "/flawlessadmin/index.html",
+    "static/js/2.008c1f0c.chunk.js.LICENSE.txt": "/flawlessadmin/static/js/2.008c1f0c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.292848c6.js",
+    "static/js/2.008c1f0c.chunk.js",
+    "static/js/main.f3004195.chunk.js"
+  ]
+}
