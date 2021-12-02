@@ -15,7 +15,7 @@ import Select from "@mui/material/Select";
 
 import { useDispatch, useSelector, RootStateOrAny } from "react-redux";
 import { createClient } from "../store/clientReducer";
-
+import { useNavigate  } from "react-router-dom";
 const Addclient = () => {
   const {
     companyName,
@@ -34,7 +34,7 @@ const Addclient = () => {
   const [companyEmailState, setCompanyEmailState] = useState('');
   const [companyPhoneState, setCompanyPhoneState] = useState('');
   const dispatch = useDispatch();
-
+const history=useNavigate();
   const submitHandler = (event) => {
     
     event.preventDefault();
@@ -141,7 +141,7 @@ const Addclient = () => {
             />
           </div>
           <div style={buttonGroupStyle}>
-            <Button>Back</Button>
+            <Button onClick={()=>history('/')}>Back</Button>
             <Button
               style={{ backgroundColor: "#2BB032", color: "white" }}
              onClick={submitHandler}
