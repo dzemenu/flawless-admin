@@ -28,6 +28,7 @@ const Addclient = () => {
     contactOccupation,
     legalName,
   } = useSelector((state: RootStateOrAny) => state.client);
+  const data=useSelector((state: RootStateOrAny) => state.client);
   const [legalNameState, setLegalNameState] = useState('');
   const [companyNameState, setCompanyNameState] = useState('');
   const [companyEmailState, setCompanyEmailState] = useState('');
@@ -35,7 +36,6 @@ const Addclient = () => {
   const dispatch = useDispatch();
 
   const submitHandler = (event) => {
-    console.log(companyName ,'companyname');
     
     event.preventDefault();
     var data=[{
@@ -47,7 +47,7 @@ const Addclient = () => {
     dispatch(
       createClient(data)
     );
-    
+    console.log(data, "data");
   };
   const paperStyle = {
     width: "100vh",
